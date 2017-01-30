@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Edward Muller <edward@heroku.com>
+MAINTAINER Pankaj Rai <pankaj.cdac@gmail.com>
 
 WORKDIR "/opt"
 
