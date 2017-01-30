@@ -6,32 +6,92 @@
 <script src="./static/slide/slides.js.download"></script>
 
 <body style="display: none" class="loaded">
+
+
 <section class="slides layout-widescreen">
-<div class="">
 
-  <div class="jumbotron text-center" >
-      <a href="/" class="lang-logo">
-          <img src="/static/lang-logo.png">
-      </a>
+    <article>
+        <h1>Getting Started with Go</h1>
+        <div class="image">
+            <img src="/static/lang-logo.png">
+        </div>
 
-    <h1 style="margin-top: 0">Getting Started with Go on Golang World</h1>
-    <div class="col-md-6" style="margin-right: 100">
-      <ul>
-      <li><a type="button" class="btn btn-lg btn-default" href="/static/slide/advanced.html"><span class="glyphiconglyphicon-flash"></span> Getting Started with Go</a></li>
-      <li><a type="button" class="btn btn-lg btn-default" href="/static/slide/index.html"><span class="glyphiconglyphicon-flash"></span> Getting Started with Go</a></li>
-      <li><a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/go-getting-started"><span class="glyphiconglyphicon-download"></span> Source on GitHub</a></li>
-      </ul>
-      <ul>
-        <li><a type="button" class="btn btn-lg btn-default" href="/static/slide/advanced.html"><span class="glyphiconglyphicon-flash"></span> Getting Started with Go</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-go">Getting Started with Go on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/go-support">Heroku Go Support</a></li>
-      </ul>
-    </div>
-  </div>
+    </article>
+
+    <article>
+        <p>
+            There are endless ways to use these tools, many presented elsewhere.
+        </p>
+
+        <p>
+            Rob Pike:
+        </p>
+
+        <p class="link"><a href="/static/slide/index.html" target="_blank">Go Concurrency Patterns</a></p>
+
+        <p>
+            Sameer Ajmani:
+        </p>
+
+        <p class="link"><a href="/static/slide/advanced.html" target="_blank">Advanced Go Concurrency Patterns</a></p>
+    </article>
+
+
+
+    <article>
+    <p>
+        There are endless ways to use these tools, many presented elsewhere.
+    </p>
+
+
+
+    <p>
+        Chatroulette toy:
+    </p>
+
+    <p class="link"><a href="http://golang.org/s/chat-roulette" target="_blank">golang.org/s/chat-roulette</a></p>
+
+    <p>
+        Load balancer:
+    </p>
+
+    <p class="link"><a href="http://golang.org/s/load-balancer" target="_blank">golang.org/s/load-balancer</a></p>
+
+    <p>
+        Concurrent prime sieve:
+    </p>
+
+    <p class="link"><a href="http://golang.org/s/prime-sieve" target="_blank">golang.org/s/prime-sieve</a></p>
+
+    <p>
+        Concurrent power series (by McIlroy):
+    </p>
+
+    <p class="link"><a href="http://golang.org/s/power-series" target="_blank">golang.org/s/power-series</a></p>
+
+    </article>
+    <div class="slide-area" id="prev-slide-area"></div><div class="slide-area" id="next-slide-area"></div></section>
+
+<div id="help">
+    Use the left and right arrow keys or click the left and right
+    edges of the page to navigate between slides.<br>
+    (Press 'H' or navigate to hide this message.)
 </div>
-</section>
-<link rel="stylesheet" type="text/css" href="/static/slide/css"><link rel="stylesheet" type="text/css" href="/static/slide/styles.css">
 
-</body>
-</html>
+
+<script src="./play.js.download"></script>
+
+
+<script>
+    (function() {
+
+        if (window["location"] && window["location"]["hostname"] == "talks.golang.org") {
+            var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+            ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+        }
+    })();
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="./css"><link rel="stylesheet" type="text/css" href="./styles.css"></body></html>
